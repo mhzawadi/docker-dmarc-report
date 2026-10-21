@@ -52,3 +52,4 @@ jobs:
             ${{ steps.meta.outputs.tags }}
             mhzawadi/dmarc-report:latest
           labels: ${{ steps.meta.outputs.labels }}
+          push: true
