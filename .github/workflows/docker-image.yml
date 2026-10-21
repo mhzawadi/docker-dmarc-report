@@ -50,5 +50,5 @@ jobs:
           push: ${{ github.ref_type == 'tag' }}
           tags: |
             ${{ steps.meta.outputs.tags }}
-            gutmensch/dmarc-report:latest
+            mhzawadi/dmarc-report:latest
           labels: ${{ steps.meta.outputs.labels }}
